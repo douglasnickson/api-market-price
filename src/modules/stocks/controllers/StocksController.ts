@@ -11,7 +11,7 @@ export class StocksController {
     const { symbols } = request.body;
     const stocksService = container.resolve(StocksServiceImpl);
     const stocksUseCase = new StocksUseCase(stocksService);
-    const res = await stocksUseCase.execute(symbols);
-    return response.status(200).json(res);
+    const stockData = await stocksUseCase.execute(symbols);
+    return response.status(200).json(stockData);
   }
 }

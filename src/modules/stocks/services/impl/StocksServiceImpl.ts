@@ -14,7 +14,6 @@ export class StocksServiceImpl implements StocksService {
 
     const response = await api.get(`/market/get-realtime-prices?symbols=${ticket}`, headers);
     const { data } = response.data;
-    console.log(data);
     const stock: IStock = data.map((stock: IStock) => {
       return {
         id: stock.id,
