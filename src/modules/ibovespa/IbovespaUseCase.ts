@@ -1,7 +1,7 @@
 import AppError from "@shared/http/errors/AppError";
 import { inject, injectable } from "tsyringe";
 import { IBovespa } from "./model/Ibovespa";
-import { IbovespaService } from "./services/IBovespaService";
+import { IbovespaService } from "./services/IbovespaService";
 
 @injectable()
 export class IbovespaUseCase {

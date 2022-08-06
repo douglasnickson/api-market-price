@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { container } from "tsyringe";
 import { IbovespaUseCase } from "../IbovespaUseCase";
-import { IbovespaServiceImpl } from "../services/impl/IBovespaServiceImpl";
+import { IbovespaServiceImpl } from "../services/impl/IbovespaServiceImpl";
 
 export class IbovespaController {
   constructor() { }

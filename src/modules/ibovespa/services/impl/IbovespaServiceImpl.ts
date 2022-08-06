@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { IBovespa } from '@modules/ibovespa/model/Ibovespa';
-import { IbovespaService } from '../IBovespaService';
+import { IbovespaService } from '../IbovespaService';
 import { IResult } from '@modules/ibovespa/model/IResult';
 import { IMarketTime } from '@modules/ibovespa/model/IMarketTime';
 
