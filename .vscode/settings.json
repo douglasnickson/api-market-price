@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/eb4cfa35-c352-4d80-9fdd-95aade7a75b2/microsoft.web/sites/subscriptions/eb4cfa35-c352-4d80-9fdd-95aade7a75b2/resourceGroups/backend-api/providers/Microsoft.Web/sites/api-market-price",
+  "appService.deploySubpath": "."
+}

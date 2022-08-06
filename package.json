@@ -7,7 +7,7 @@
   "author": "Douglas Nickson",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/shared/http/server.ts"
+    "start": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/shared/http/server.ts"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
